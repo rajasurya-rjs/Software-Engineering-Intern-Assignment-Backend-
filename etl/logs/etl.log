@@ -206,3 +206,185 @@ DETAIL:  Key (student_id)=(36) is not present in table "students".
 
 2025-12-16 15:42:09,737 | INFO | Database load completed
 2025-12-16 15:42:09,737 | INFO | ETL PIPELINE COMPLETED SUCCESSFULLY
+2025-12-16 16:32:47,275 | INFO | Registering student: Test Student (test123@example.com)
+2025-12-16 16:32:51,206 | INFO | Student registered successfully: ID 405
+2025-12-16 17:10:10,033 | INFO | Registering student: Guillema Keatley (gkeatley0@addthis.com)
+2025-12-16 17:10:14,027 | INFO | Student already exists: gkeatley0@addthis.com
+2025-12-16 17:10:14,809 | INFO | Registering student: Henryetta Indgs (hindgs1@wired.com)
+2025-12-16 17:10:17,675 | INFO | Student already exists: hindgs1@wired.com
+2025-12-16 17:10:18,531 | INFO | Registering student: Valery Anderton (vanderton2@tinypic.com)
+2025-12-16 17:10:22,310 | INFO | Student already exists: vanderton2@tinypic.com
+2025-12-16 17:10:24,248 | INFO | Registering student: Fionnula Abele (fabele3@nationalgeographic.com)
+2025-12-16 17:10:28,146 | INFO | Student already exists: fabele3@nationalgeographic.com
+2025-12-16 17:10:28,881 | INFO | Registering student: Tyler Polotti (tpolotti4@google.nl)
+2025-12-16 17:10:32,172 | INFO | Student already exists: tpolotti4@google.nl
+2025-12-16 17:10:32,966 | INFO | Registering student: Faith Pie (fpie5@earthlink.net)
+2025-12-16 17:10:36,441 | INFO | Student already exists: fpie5@earthlink.net
+2025-12-16 17:10:37,108 | INFO | Registering student: Odo Oddy (ooddy6@vinaora.com)
+2025-12-16 17:10:40,579 | INFO | Student already exists: ooddy6@vinaora.com
+2025-12-16 17:10:42,494 | INFO | Registering student: Maxy Tumber (mtumber9@github.io)
+2025-12-16 17:10:46,617 | INFO | Student already exists: mtumber9@github.io
+2025-12-16 17:10:47,590 | INFO | Registering student: Lu Greenhouse (lgreenhousea@paginegialle.it)
+2025-12-16 17:10:50,668 | INFO | Student already exists: lgreenhousea@paginegialle.it
+2025-12-16 17:10:51,427 | INFO | Registering student: Junina Greenley (jgreenleyb@nationalgeographic.com)
+2025-12-16 17:10:54,664 | INFO | Student already exists: jgreenleyb@nationalgeographic.com
+2025-12-16 17:10:55,384 | INFO | Registering student: Hulda Manns (hmannsc@biglobe.ne.jp)
+2025-12-16 17:10:59,471 | INFO | Student already exists: hmannsc@biglobe.ne.jp
+2025-12-16 17:11:00,534 | INFO | Registering student: Billi Tendahl (btendahle@cmu.edu)
+2025-12-16 17:11:05,444 | INFO | Student already exists: btendahle@cmu.edu
+2025-12-16 17:11:06,152 | INFO | Registering student: Zarah Treadgall (ztreadgallf@tripadvisor.com)
+2025-12-16 17:11:10,297 | INFO | Student already exists: ztreadgallf@tripadvisor.com
+2025-12-16 17:11:10,937 | INFO | Registering student: Morganne Ruppelin (mruppeling@house.gov)
+2025-12-16 17:11:14,458 | INFO | Student already exists: mruppeling@house.gov
+2025-12-16 17:11:15,137 | INFO | Registering student: Evelyn Regler (ereglerh@umn.edu)
+2025-12-16 17:11:19,142 | INFO | Student already exists: ereglerh@umn.edu
+2025-12-16 17:11:20,086 | INFO | Registering student: Kippie Barrott (kbarrottj@gizmodo.com)
+2025-12-16 17:11:23,459 | INFO | Student already exists: kbarrottj@gizmodo.com
+2025-12-16 17:11:25,165 | INFO | Registering student: Anneliese McKennan (amckennanl@nih.gov)
+2025-12-16 17:11:28,564 | INFO | Student already exists: amckennanl@nih.gov
+2025-12-16 17:11:29,167 | INFO | Registering student: Odell Laguerre (olaguerrem@samsung.com)
+2025-12-16 17:11:32,781 | INFO | Student already exists: olaguerrem@samsung.com
+2025-12-16 17:11:33,442 | INFO | Registering student: Roseann Lillywhite (rlillywhiten@acquirethisname.com)
+2025-12-16 17:11:36,757 | INFO | Student already exists: rlillywhiten@acquirethisname.com
+2025-12-16 17:11:37,388 | INFO | Registering student: Wang Barbosa (wbarbosao@nasa.gov)
+2025-12-16 17:11:41,216 | INFO | Student already exists: wbarbosao@nasa.gov
+2025-12-16 17:11:41,970 | INFO | Registering student: Lynn Imbrey (limbreyp@sakura.ne.jp)
+2025-12-16 17:11:45,561 | INFO | Student already exists: limbreyp@sakura.ne.jp
+2025-12-16 17:11:46,026 | INFO | Registering student: Brigham Galey (bgaleyq@phpbb.com)
+2025-12-16 17:11:49,727 | INFO | Student already exists: bgaleyq@phpbb.com
+2025-12-16 17:11:50,429 | INFO | Registering student: Melvin Jahnisch (mjahnischs@latimes.com)
+2025-12-16 17:11:53,777 | INFO | Student already exists: mjahnischs@latimes.com
+2025-12-16 17:11:54,161 | INFO | Registering student: Joane Van Hove (jvant@boston.com)
+2025-12-16 17:11:58,566 | INFO | Student already exists: jvant@boston.com
+2025-12-16 17:11:59,306 | INFO | Registering student: Teador Rigardeau (trigardeauu@sciencedirect.com)
+2025-12-16 17:12:04,754 | INFO | Student already exists: trigardeauu@sciencedirect.com
+2025-12-16 17:12:05,546 | INFO | Registering student: Marisa Pizer (mpizerw@liveinternet.ru)
+2025-12-16 17:12:09,114 | INFO | Student already exists: mpizerw@liveinternet.ru
+2025-12-16 17:12:09,714 | INFO | Registering student: Cleveland Hardstaff (chardstaffx@examiner.com)
+2025-12-16 17:12:13,516 | INFO | Student already exists: chardstaffx@examiner.com
+2025-12-16 17:12:15,000 | INFO | Registering student: Gideon Battin (gbattiny@foxnews.com)
+2025-12-16 17:12:19,148 | INFO | Student already exists: gbattiny@foxnews.com
+2025-12-16 17:12:19,864 | INFO | Registering student: Zonnya Robathon (zrobathon10@dailymail.co.uk)
+2025-12-16 17:12:23,345 | INFO | Student already exists: zrobathon10@dailymail.co.uk
+2025-12-16 17:12:23,756 | INFO | Registering student: Malena Dermot (mdermot11@wix.com)
+2025-12-16 17:12:27,648 | INFO | Student already exists: mdermot11@wix.com
+2025-12-16 17:12:28,162 | INFO | Registering student: Knox Harower (kharower12@gravatar.com)
+2025-12-16 17:12:31,641 | INFO | Student already exists: kharower12@gravatar.com
+2025-12-16 17:12:32,425 | INFO | Registering student: Leopold Isaacson (lisaacson13@geocities.com)
+2025-12-16 17:12:35,946 | INFO | Student already exists: lisaacson13@geocities.com
+2025-12-16 17:12:36,638 | INFO | Registering student: Shannah Southward (ssouthward14@ameblo.jp)
+2025-12-16 17:12:40,554 | INFO | Student already exists: ssouthward14@ameblo.jp
+2025-12-16 17:12:41,244 | INFO | Registering student: Curr Moorrud (cmoorrud15@parallels.com)
+2025-12-16 17:12:44,646 | INFO | Student already exists: cmoorrud15@parallels.com
+2025-12-16 17:12:45,094 | INFO | Registering student: Theodore Dedam (tdedam16@imdb.com)
+2025-12-16 17:12:49,053 | INFO | Student already exists: tdedam16@imdb.com
+2025-12-16 17:12:49,697 | INFO | Registering student: Deb Hurdedge (dhurdedge17@hatena.ne.jp)
+2025-12-16 17:12:54,030 | INFO | Student already exists: dhurdedge17@hatena.ne.jp
+2025-12-16 17:12:54,897 | INFO | Registering student: Dionisio McBeath (dmcbeath18@uol.com.br)
+2025-12-16 17:12:58,669 | INFO | Student already exists: dmcbeath18@uol.com.br
+2025-12-16 17:12:59,327 | INFO | Registering student: Anne Listone (alistone19@msu.edu)
+2025-12-16 17:13:04,619 | INFO | Student already exists: alistone19@msu.edu
+2025-12-16 17:13:05,393 | INFO | Registering student: Melly Collisson (mcollisson1b@ezinearticles.com)
+2025-12-16 17:13:08,539 | INFO | Student already exists: mcollisson1b@ezinearticles.com
+2025-12-16 17:13:08,938 | INFO | Registering student: Maitilde Kightly (mkightly1c@boston.com)
+2025-12-16 17:13:12,397 | INFO | Student already exists: mkightly1c@boston.com
+2025-12-16 17:13:13,037 | INFO | Registering student: Shanna Saye (ssaye1d@usatoday.com)
+2025-12-16 17:13:16,607 | INFO | Student already exists: ssaye1d@usatoday.com
+2025-12-16 17:13:17,300 | INFO | Registering student: Estrellita Mongan (emongan1e@wisc.edu)
+2025-12-16 17:13:21,101 | INFO | Student already exists: emongan1e@wisc.edu
+2025-12-16 17:13:21,824 | INFO | Registering student: Aron Castillon (acastillon1g@woothemes.com)
+2025-12-16 17:13:26,016 | INFO | Student already exists: acastillon1g@woothemes.com
+2025-12-16 17:13:26,628 | INFO | Registering student: Dieter Annear (dannear1h@comcast.net)
+2025-12-16 17:13:30,623 | INFO | Student already exists: dannear1h@comcast.net
+2025-12-16 17:13:31,280 | INFO | Registering student: Reuven McIlwrath (rmcilwrath1i@oaic.gov.au)
+2025-12-16 17:13:34,822 | INFO | Student already exists: rmcilwrath1i@oaic.gov.au
+2025-12-16 17:13:35,504 | INFO | Registering student: Allina Elstow (aelstow1j@ucoz.com)
+2025-12-16 17:13:38,909 | INFO | Student already exists: aelstow1j@ucoz.com
+2025-12-16 17:13:39,609 | INFO | Registering student: Benedetto Silverlock (bsilverlock1l@icq.com)
+2025-12-16 17:13:43,959 | INFO | Student already exists: bsilverlock1l@icq.com
+2025-12-16 17:13:44,594 | INFO | Registering student: Ardra Scarth (ascarth1m@timesonline.co.uk)
+2025-12-16 17:13:47,832 | INFO | Student already exists: ascarth1m@timesonline.co.uk
+2025-12-16 17:13:48,653 | INFO | Registering student: Gregor Glede (gglede1n@multiply.com)
+2025-12-16 17:13:52,305 | INFO | Student already exists: gglede1n@multiply.com
+2025-12-16 17:13:52,947 | INFO | Registering student: Petronia Stut (pstut1o@wikispaces.com)
+2025-12-16 17:13:56,914 | INFO | Student already exists: pstut1o@wikispaces.com
+2025-12-16 17:13:57,602 | INFO | Registering student: Aeriell Redhole (aredhole1p@kickstarter.com)
+2025-12-16 17:14:01,344 | INFO | Student already exists: aredhole1p@kickstarter.com
+2025-12-16 17:14:02,910 | INFO | Registering student: Demeter Dunlop (ddunlop1q@alibaba.com)
+2025-12-16 17:14:06,567 | INFO | Student already exists: ddunlop1q@alibaba.com
+2025-12-16 17:14:07,386 | INFO | Registering student: Pincus Cushe (pcushe1s@jalbum.net)
+2025-12-16 17:14:10,868 | INFO | Student already exists: pcushe1s@jalbum.net
+2025-12-16 17:14:11,480 | INFO | Registering student: Cher Artinstall (cartinstall1t@weebly.com)
+2025-12-16 17:14:15,066 | INFO | Student already exists: cartinstall1t@weebly.com
+2025-12-16 17:14:15,578 | INFO | Registering student: Noelyn Whymark (nwhymark1u@discovery.com)
+2025-12-16 17:14:19,060 | INFO | Student already exists: nwhymark1u@discovery.com
+2025-12-16 17:14:19,599 | INFO | Registering student: Erin Counsell (ecounsell1v@trellian.com)
+2025-12-16 17:14:23,564 | INFO | Student already exists: ecounsell1v@trellian.com
+2025-12-16 17:14:24,276 | INFO | Registering student: Mia Aggio (maggio1x@edublogs.org)
+2025-12-16 17:14:27,969 | INFO | Student already exists: maggio1x@edublogs.org
+2025-12-16 17:14:29,259 | INFO | Registering student: Carney Braffington (cbraffington1y@miitbeian.gov.cn)
+2025-12-16 17:14:35,041 | INFO | Student already exists: cbraffington1y@miitbeian.gov.cn
+2025-12-16 17:14:35,832 | INFO | Registering student: Carny Pendre (cpendre1z@businessinsider.com)
+2025-12-16 17:14:39,652 | INFO | Student already exists: cpendre1z@businessinsider.com
+2025-12-16 17:14:41,053 | INFO | Registering student: Dell Sidwick (dsidwick20@alibaba.com)
+2025-12-16 17:14:44,389 | INFO | Student already exists: dsidwick20@alibaba.com
+2025-12-16 17:14:45,070 | INFO | Registering student: Stacy Marris (smarris21@japanpost.jp)
+2025-12-16 17:14:48,289 | INFO | Student already exists: smarris21@japanpost.jp
+2025-12-16 17:14:48,728 | INFO | Registering student: Nani Featherstonhaugh (nfeatherstonhaugh22@drupal.org)
+2025-12-16 17:14:52,664 | INFO | Student already exists: nfeatherstonhaugh22@drupal.org
+2025-12-16 17:14:53,458 | INFO | Registering student: Jaimie Thursby (jthursby23@reuters.com)
+2025-12-16 17:14:57,154 | INFO | Student already exists: jthursby23@reuters.com
+2025-12-16 17:14:57,862 | INFO | Registering student: Emmye Braund (ebraund24@japanpost.jp)
+2025-12-16 17:15:01,074 | INFO | Student already exists: ebraund24@japanpost.jp
+2025-12-16 17:15:01,711 | INFO | Registering student: Emmeline Berkowitz (eberkowitz25@usnews.com)
+2025-12-16 17:15:04,935 | INFO | Student already exists: eberkowitz25@usnews.com
+2025-12-16 17:15:05,562 | INFO | Registering student: Tilly Shorter (tshorter26@php.net)
+2025-12-16 17:15:09,134 | INFO | Student already exists: tshorter26@php.net
+2025-12-16 17:15:09,582 | INFO | Registering student: Muffin McWhirter (mmcwhirter27@lulu.com)
+2025-12-16 17:15:13,230 | INFO | Student already exists: mmcwhirter27@lulu.com
+2025-12-16 17:15:13,932 | INFO | Registering student: Jethro Dubbin (jdubbin28@cnn.com)
+2025-12-16 17:15:17,633 | INFO | Student already exists: jdubbin28@cnn.com
+2025-12-16 17:15:18,296 | INFO | Registering student: Bernardo Algar (balgar29@patch.com)
+2025-12-16 17:15:21,924 | INFO | Student already exists: balgar29@patch.com
+2025-12-16 17:15:22,579 | INFO | Registering student: Collete Ligoe (cligoe2a@examiner.com)
+2025-12-16 17:15:26,363 | INFO | Student already exists: cligoe2a@examiner.com
+2025-12-16 17:15:27,064 | INFO | Registering student: Robena Anglin (ranglin2b@fda.gov)
+2025-12-16 17:15:31,264 | INFO | Student already exists: ranglin2b@fda.gov
+2025-12-16 17:15:31,949 | INFO | Registering student: Zach Henden (zhenden2c@wired.com)
+2025-12-16 17:15:35,291 | INFO | Student already exists: zhenden2c@wired.com
+2025-12-16 17:15:35,928 | INFO | Registering student: Kermie Bigland (kbigland2d@rediff.com)
+2025-12-16 17:15:39,111 | INFO | Student already exists: kbigland2d@rediff.com
+2025-12-16 17:15:40,632 | INFO | Registering student: Clotilda Island (cisland2e@mtv.com)
+2025-12-16 17:15:44,158 | INFO | Student already exists: cisland2e@mtv.com
+2025-12-16 17:15:44,979 | INFO | Registering student: Daune Foxall (dfoxall2f@canalblog.com)
+2025-12-16 17:15:48,685 | INFO | Student already exists: dfoxall2f@canalblog.com
+2025-12-16 17:15:49,333 | INFO | Registering student: Rudolph Gencke (rgencke2g@oracle.com)
+2025-12-16 17:15:52,751 | INFO | Student already exists: rgencke2g@oracle.com
+2025-12-16 17:15:53,588 | INFO | Registering student: Annora Campey (acampey2i@tamu.edu)
+2025-12-16 17:15:57,570 | INFO | Student already exists: acampey2i@tamu.edu
+2025-12-16 17:15:57,971 | INFO | Registering student: Petunia Hyndes (phyndes2j@indiegogo.com)
+2025-12-16 17:16:01,973 | INFO | Student already exists: phyndes2j@indiegogo.com
+2025-12-16 17:16:02,462 | INFO | Registering student: Kara-lynn Cosker (kcosker2k@vinaora.com)
+2025-12-16 17:16:06,281 | INFO | Student already exists: kcosker2k@vinaora.com
+2025-12-16 17:16:07,019 | INFO | Registering student: Charlene Guilayn (cguilayn2l@va.gov)
+2025-12-16 17:16:10,671 | INFO | Student already exists: cguilayn2l@va.gov
+2025-12-16 17:47:03,420 | INFO | Registering student: Dorothea Armfield (darmfield7@homestead.com)
+2025-12-16 17:47:07,710 | INFO | Student already exists: darmfield7@homestead.com
+2025-12-16 17:47:08,544 | INFO | Registering student: Morgan Petran (mpetrand@flavors.me)
+2025-12-16 17:47:12,338 | INFO | Student already exists: mpetrand@flavors.me
+2025-12-16 17:47:13,160 | INFO | Registering student: Charlene Guilayn (cguilayn2l@va.gov)
+2025-12-16 17:47:16,841 | INFO | Student already exists: cguilayn2l@va.gov
+2025-12-16 17:47:17,596 | INFO | Registering student: Joey Barette (jbarette2m@dedecms.com)
+2025-12-16 17:47:21,312 | INFO | Student already exists: jbarette2m@dedecms.com
+2025-12-16 17:47:22,016 | INFO | Registering student: Gregor Gosselin (ggosselin2n@nsw.gov.au)
+2025-12-16 17:47:25,591 | INFO | Student already exists: ggosselin2n@nsw.gov.au
+2025-12-16 17:47:26,364 | INFO | Registering student: Adolphus Shillaber (ashillaber2o@indiegogo.com)
+2025-12-16 17:47:29,690 | INFO | Student already exists: ashillaber2o@indiegogo.com
+2025-12-16 17:47:30,423 | INFO | Registering student: Kacie Haspineall (khaspineall2p@google.com.au)
+2025-12-16 17:47:35,376 | INFO | Student already exists: khaspineall2p@google.com.au
+2025-12-16 17:47:36,105 | INFO | Registering student: Hermon Sothern (hsothern2q@seesaa.net)
+2025-12-16 17:47:39,267 | INFO | Student already exists: hsothern2q@seesaa.net
+2025-12-16 17:47:39,760 | INFO | Registering student: Clarice Olliar (colliar2r@europa.eu)
+2025-12-16 17:47:43,329 | INFO | Student already exists: colliar2r@europa.eu
+2025-12-16 17:49:36,193 | INFO | Registering student: surya (rajsuray@gmail.com)
+2025-12-16 17:49:40,035 | INFO | Student registered successfully: ID 495
