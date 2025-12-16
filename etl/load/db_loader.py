@@ -28,6 +28,24 @@ def load_all(students, courses, enrollments):
             """,
             (c["course_code"], c["course_name"], int(c["credits"]))
         )
+    for e in enrollments:
+        try:
+            cur.execute(
+                """
+                INSERT INTO enrollments (student_id, course_id, enrollment_date, grade)
+                VALUES (%s, %s, %s, %s)
+                ON CONFLICT (student_id, course_id) DO NOTHING
+                """,
+                (
+                    int(e["student_id"]),
+                    int(e["course_id"]),
+                    e.get("enrollment_date") or "2025-01-01",
+                    e.get("grade")
+                )
+            )
+        except Exception as ex:
+            logger.warning(f"Skipping enrollment record {e}: {ex}")
+
 
     conn.commit()
     cur.close()

@@ -1,0 +1,208 @@
+2025-12-16 15:40:43,344 | INFO | Starting ETL Pipeline
+2025-12-16 15:40:47,118 | INFO | Students: 100 valid | 0 dropped
+2025-12-16 15:40:47,122 | INFO | Courses: 8 valid | 92 dropped
+2025-12-16 15:40:47,124 | INFO | Enrollments: 100 valid | 0 dropped
+2025-12-16 15:40:49,786 | INFO | Loading data into NeonDB
+2025-12-16 15:41:32,017 | WARNING | Skipping enrollment record {'enrollment_id': '1', 'student_id': '36', 'course_id': '24', 'enrollment_date': '12/9/2025', 'grade': 'D', 'status': 'Completed'}: insert or update on table "enrollments" violates foreign key constraint "fk_enrollments_student"
+DETAIL:  Key (student_id)=(36) is not present in table "students".
+
+2025-12-16 15:41:32,322 | WARNING | Skipping enrollment record {'enrollment_id': '2', 'student_id': '8', 'course_id': '3', 'enrollment_date': '7/16/2025', 'grade': 'C', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:32,798 | WARNING | Skipping enrollment record {'enrollment_id': '3', 'student_id': '19', 'course_id': '13', 'enrollment_date': '9/16/2025', 'grade': 'F', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:33,254 | WARNING | Skipping enrollment record {'enrollment_id': '4', 'student_id': '10', 'course_id': '4', 'enrollment_date': '4/26/2025', 'grade': 'F', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:33,617 | WARNING | Skipping enrollment record {'enrollment_id': '5', 'student_id': '26', 'course_id': '6', 'enrollment_date': '6/2/2025', 'grade': 'C', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:33,937 | WARNING | Skipping enrollment record {'enrollment_id': '6', 'student_id': '42', 'course_id': '7', 'enrollment_date': '1/18/2025', 'grade': 'F', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:34,372 | WARNING | Skipping enrollment record {'enrollment_id': '7', 'student_id': '19', 'course_id': '8', 'enrollment_date': '', 'grade': 'D', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:34,692 | WARNING | Skipping enrollment record {'enrollment_id': '8', 'student_id': '11', 'course_id': '18', 'enrollment_date': '1/1/2025', 'grade': 'F', 'status': nan}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:35,051 | WARNING | Skipping enrollment record {'enrollment_id': '9', 'student_id': '24', 'course_id': '24', 'enrollment_date': '4/27/2025', 'grade': 'C', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:35,494 | WARNING | Skipping enrollment record {'enrollment_id': '10', 'student_id': '37', 'course_id': '23', 'enrollment_date': '3/20/2025', 'grade': 'F', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:35,819 | WARNING | Skipping enrollment record {'enrollment_id': '11', 'student_id': '9', 'course_id': '12', 'enrollment_date': '8/2/2025', 'grade': 'D', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:36,177 | WARNING | Skipping enrollment record {'enrollment_id': '12', 'student_id': '41', 'course_id': '13', 'enrollment_date': '5/5/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:36,505 | WARNING | Skipping enrollment record {'enrollment_id': '13', 'student_id': '41', 'course_id': '8', 'enrollment_date': '9/17/2025', 'grade': 'A', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:36,816 | WARNING | Skipping enrollment record {'enrollment_id': '14', 'student_id': '38', 'course_id': '6', 'enrollment_date': '10/7/2025', 'grade': 'D', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:37,254 | WARNING | Skipping enrollment record {'enrollment_id': '15', 'student_id': '13', 'course_id': '16', 'enrollment_date': '1/29/2025', 'grade': 'B', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:37,612 | WARNING | Skipping enrollment record {'enrollment_id': '16', 'student_id': '24', 'course_id': '12', 'enrollment_date': '9/12/2025', 'grade': nan, 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:37,943 | WARNING | Skipping enrollment record {'enrollment_id': '17', 'student_id': '31', 'course_id': '12', 'enrollment_date': '11/21/2025', 'grade': 'A', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:38,430 | WARNING | Skipping enrollment record {'enrollment_id': '18', 'student_id': '43', 'course_id': '2', 'enrollment_date': '2/26/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:38,756 | WARNING | Skipping enrollment record {'enrollment_id': '19', 'student_id': '19', 'course_id': '21', 'enrollment_date': '11/13/2025', 'grade': 'C', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:39,175 | WARNING | Skipping enrollment record {'enrollment_id': '20', 'student_id': '18', 'course_id': '13', 'enrollment_date': '', 'grade': nan, 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:39,494 | WARNING | Skipping enrollment record {'enrollment_id': '21', 'student_id': '17', 'course_id': '12', 'enrollment_date': '12/3/2025', 'grade': 'F', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:39,864 | WARNING | Skipping enrollment record {'enrollment_id': '22', 'student_id': '20', 'course_id': '12', 'enrollment_date': '7/28/2025', 'grade': 'A', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:40,314 | WARNING | Skipping enrollment record {'enrollment_id': '23', 'student_id': '4', 'course_id': '8', 'enrollment_date': '5/14/2025', 'grade': 'D', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:40,635 | WARNING | Skipping enrollment record {'enrollment_id': '24', 'student_id': '23', 'course_id': '18', 'enrollment_date': '9/24/2025', 'grade': 'D', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:40,947 | WARNING | Skipping enrollment record {'enrollment_id': '25', 'student_id': '11', 'course_id': '15', 'enrollment_date': '6/14/2025', 'grade': 'D', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:41,256 | WARNING | Skipping enrollment record {'enrollment_id': '26', 'student_id': '9', 'course_id': '18', 'enrollment_date': '8/18/2025', 'grade': 'B', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:41,574 | WARNING | Skipping enrollment record {'enrollment_id': '27', 'student_id': '14', 'course_id': '20', 'enrollment_date': '3/6/2025', 'grade': 'C', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:41,895 | WARNING | Skipping enrollment record {'enrollment_id': '28', 'student_id': '5', 'course_id': '19', 'enrollment_date': '8/15/2025', 'grade': 'A', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:42,321 | WARNING | Skipping enrollment record {'enrollment_id': '29', 'student_id': '12', 'course_id': '13', 'enrollment_date': '3/21/2025', 'grade': 'B', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:42,731 | WARNING | Skipping enrollment record {'enrollment_id': '30', 'student_id': '37', 'course_id': '18', 'enrollment_date': '11/19/2025', 'grade': nan, 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:43,041 | WARNING | Skipping enrollment record {'enrollment_id': '31', 'student_id': '12', 'course_id': '20', 'enrollment_date': '1/12/2025', 'grade': nan, 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:43,497 | WARNING | Skipping enrollment record {'enrollment_id': '32', 'student_id': '33', 'course_id': '22', 'enrollment_date': '5/13/2025', 'grade': 'B', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:43,819 | WARNING | Skipping enrollment record {'enrollment_id': '33', 'student_id': '46', 'course_id': '21', 'enrollment_date': '1/23/2025', 'grade': 'F', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:44,165 | WARNING | Skipping enrollment record {'enrollment_id': '34', 'student_id': '47', 'course_id': '16', 'enrollment_date': '6/13/2025', 'grade': 'D', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:44,488 | WARNING | Skipping enrollment record {'enrollment_id': '35', 'student_id': '10', 'course_id': '1', 'enrollment_date': '1/17/2025', 'grade': nan, 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:44,882 | WARNING | Skipping enrollment record {'enrollment_id': '36', 'student_id': '43', 'course_id': '12', 'enrollment_date': '', 'grade': nan, 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:45,200 | WARNING | Skipping enrollment record {'enrollment_id': '37', 'student_id': '6', 'course_id': '24', 'enrollment_date': '9/13/2025', 'grade': 'B', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:45,574 | WARNING | Skipping enrollment record {'enrollment_id': '38', 'student_id': '50', 'course_id': '28', 'enrollment_date': '8/28/2025', 'grade': 'A', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:45,893 | WARNING | Skipping enrollment record {'enrollment_id': '39', 'student_id': '28', 'course_id': '16', 'enrollment_date': '1/2/2025', 'grade': 'B', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:46,315 | WARNING | Skipping enrollment record {'enrollment_id': '40', 'student_id': '36', 'course_id': '1', 'enrollment_date': '4/28/2025', 'grade': 'B', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:46,639 | WARNING | Skipping enrollment record {'enrollment_id': '41', 'student_id': '5', 'course_id': '6', 'enrollment_date': '7/9/2025', 'grade': 'F', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:46,968 | WARNING | Skipping enrollment record {'enrollment_id': '42', 'student_id': '4', 'course_id': '16', 'enrollment_date': '6/11/2025', 'grade': 'B', 'status': nan}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:47,442 | WARNING | Skipping enrollment record {'enrollment_id': '43', 'student_id': '11', 'course_id': '23', 'enrollment_date': '4/11/2025', 'grade': 'B', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:47,758 | WARNING | Skipping enrollment record {'enrollment_id': '44', 'student_id': '50', 'course_id': '26', 'enrollment_date': '11/2/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:48,064 | WARNING | Skipping enrollment record {'enrollment_id': '45', 'student_id': '43', 'course_id': '25', 'enrollment_date': '1/11/2025', 'grade': 'B', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:48,465 | WARNING | Skipping enrollment record {'enrollment_id': '46', 'student_id': '26', 'course_id': '19', 'enrollment_date': '1/17/2025', 'grade': nan, 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:48,978 | WARNING | Skipping enrollment record {'enrollment_id': '47', 'student_id': '14', 'course_id': '5', 'enrollment_date': '', 'grade': 'D', 'status': nan}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:49,415 | WARNING | Skipping enrollment record {'enrollment_id': '48', 'student_id': '15', 'course_id': '6', 'enrollment_date': '2/21/2025', 'grade': 'B', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:49,733 | WARNING | Skipping enrollment record {'enrollment_id': '49', 'student_id': '20', 'course_id': '29', 'enrollment_date': '9/15/2025', 'grade': nan, 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:50,105 | WARNING | Skipping enrollment record {'enrollment_id': '50', 'student_id': '6', 'course_id': '16', 'enrollment_date': '6/27/2025', 'grade': 'C', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:50,534 | WARNING | Skipping enrollment record {'enrollment_id': '51', 'student_id': '8', 'course_id': '25', 'enrollment_date': '12/10/2025', 'grade': nan, 'status': nan}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:50,854 | WARNING | Skipping enrollment record {'enrollment_id': '52', 'student_id': '5', 'course_id': '19', 'enrollment_date': '6/9/2025', 'grade': 'F', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:51,230 | WARNING | Skipping enrollment record {'enrollment_id': '53', 'student_id': '38', 'course_id': '29', 'enrollment_date': '4/27/2025', 'grade': nan, 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:51,744 | WARNING | Skipping enrollment record {'enrollment_id': '54', 'student_id': '39', 'course_id': '28', 'enrollment_date': '8/15/2025', 'grade': 'C', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:52,058 | WARNING | Skipping enrollment record {'enrollment_id': '55', 'student_id': '28', 'course_id': '3', 'enrollment_date': '', 'grade': 'B', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:52,562 | WARNING | Skipping enrollment record {'enrollment_id': '56', 'student_id': '31', 'course_id': '7', 'enrollment_date': '8/12/2025', 'grade': 'D', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:52,971 | WARNING | Skipping enrollment record {'enrollment_id': '57', 'student_id': '36', 'course_id': '20', 'enrollment_date': '6/29/2025', 'grade': 'C', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:53,444 | WARNING | Skipping enrollment record {'enrollment_id': '58', 'student_id': '47', 'course_id': '16', 'enrollment_date': '', 'grade': 'B', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:53,790 | WARNING | Skipping enrollment record {'enrollment_id': '59', 'student_id': '18', 'course_id': '6', 'enrollment_date': '8/3/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:54,302 | WARNING | Skipping enrollment record {'enrollment_id': '60', 'student_id': '49', 'course_id': '27', 'enrollment_date': '12/14/2025', 'grade': 'A', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:54,712 | WARNING | Skipping enrollment record {'enrollment_id': '61', 'student_id': '17', 'course_id': '12', 'enrollment_date': '9/24/2025', 'grade': 'C', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:55,030 | WARNING | Skipping enrollment record {'enrollment_id': '62', 'student_id': '44', 'course_id': '12', 'enrollment_date': '', 'grade': 'A', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:55,341 | WARNING | Skipping enrollment record {'enrollment_id': '63', 'student_id': '10', 'course_id': '23', 'enrollment_date': '', 'grade': 'D', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:55,656 | WARNING | Skipping enrollment record {'enrollment_id': '64', 'student_id': '19', 'course_id': '16', 'enrollment_date': '8/29/2025', 'grade': 'B', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:56,043 | WARNING | Skipping enrollment record {'enrollment_id': '65', 'student_id': '26', 'course_id': '6', 'enrollment_date': '12/12/2025', 'grade': 'B', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:56,555 | WARNING | Skipping enrollment record {'enrollment_id': '66', 'student_id': '50', 'course_id': '15', 'enrollment_date': '3/15/2025', 'grade': 'D', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:56,877 | WARNING | Skipping enrollment record {'enrollment_id': '67', 'student_id': '20', 'course_id': '30', 'enrollment_date': '10/23/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:57,252 | WARNING | Skipping enrollment record {'enrollment_id': '68', 'student_id': '42', 'course_id': '3', 'enrollment_date': '2/26/2025', 'grade': 'B', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:57,681 | WARNING | Skipping enrollment record {'enrollment_id': '69', 'student_id': '5', 'course_id': '22', 'enrollment_date': '4/14/2025', 'grade': 'A', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:58,091 | WARNING | Skipping enrollment record {'enrollment_id': '70', 'student_id': '38', 'course_id': '10', 'enrollment_date': '4/30/2025', 'grade': 'F', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:58,405 | WARNING | Skipping enrollment record {'enrollment_id': '71', 'student_id': '3', 'course_id': '29', 'enrollment_date': '5/20/2025', 'grade': 'A', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:58,711 | WARNING | Skipping enrollment record {'enrollment_id': '72', 'student_id': '49', 'course_id': '5', 'enrollment_date': '1/3/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:59,028 | WARNING | Skipping enrollment record {'enrollment_id': '73', 'student_id': '18', 'course_id': '27', 'enrollment_date': '8/9/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:59,357 | WARNING | Skipping enrollment record {'enrollment_id': '74', 'student_id': '49', 'course_id': '23', 'enrollment_date': '2/19/2025', 'grade': 'B', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:41:59,662 | WARNING | Skipping enrollment record {'enrollment_id': '75', 'student_id': '9', 'course_id': '15', 'enrollment_date': '11/29/2025', 'grade': nan, 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:00,037 | WARNING | Skipping enrollment record {'enrollment_id': '76', 'student_id': '50', 'course_id': '1', 'enrollment_date': '8/17/2025', 'grade': nan, 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:00,549 | WARNING | Skipping enrollment record {'enrollment_id': '77', 'student_id': '10', 'course_id': '13', 'enrollment_date': '3/27/2025', 'grade': 'D', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:00,958 | WARNING | Skipping enrollment record {'enrollment_id': '78', 'student_id': '19', 'course_id': '29', 'enrollment_date': '4/6/2025', 'grade': 'C', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:01,292 | WARNING | Skipping enrollment record {'enrollment_id': '79', 'student_id': '48', 'course_id': '15', 'enrollment_date': '12/11/2025', 'grade': 'D', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:01,675 | WARNING | Skipping enrollment record {'enrollment_id': '80', 'student_id': '32', 'course_id': '7', 'enrollment_date': '10/17/2025', 'grade': 'A', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:01,987 | WARNING | Skipping enrollment record {'enrollment_id': '81', 'student_id': '27', 'course_id': '29', 'enrollment_date': '1/17/2025', 'grade': 'D', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:02,291 | WARNING | Skipping enrollment record {'enrollment_id': '82', 'student_id': '30', 'course_id': '12', 'enrollment_date': '6/24/2025', 'grade': nan, 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:02,598 | WARNING | Skipping enrollment record {'enrollment_id': '83', 'student_id': '30', 'course_id': '13', 'enrollment_date': '5/26/2025', 'grade': 'B', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:02,918 | WARNING | Skipping enrollment record {'enrollment_id': '84', 'student_id': '8', 'course_id': '12', 'enrollment_date': '10/12/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:03,416 | WARNING | Skipping enrollment record {'enrollment_id': '85', 'student_id': '11', 'course_id': '30', 'enrollment_date': '1/22/2025', 'grade': 'D', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:03,739 | WARNING | Skipping enrollment record {'enrollment_id': '86', 'student_id': '11', 'course_id': '9', 'enrollment_date': '7/22/2025', 'grade': 'F', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:04,235 | WARNING | Skipping enrollment record {'enrollment_id': '87', 'student_id': '35', 'course_id': '27', 'enrollment_date': '12/11/2025', 'grade': 'C', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:04,645 | WARNING | Skipping enrollment record {'enrollment_id': '88', 'student_id': '8', 'course_id': '21', 'enrollment_date': '4/4/2025', 'grade': 'F', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:05,157 | WARNING | Skipping enrollment record {'enrollment_id': '89', 'student_id': '10', 'course_id': '21', 'enrollment_date': '5/9/2025', 'grade': 'A', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:05,573 | WARNING | Skipping enrollment record {'enrollment_id': '90', 'student_id': '26', 'course_id': '8', 'enrollment_date': '9/29/2025', 'grade': 'B', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:05,899 | WARNING | Skipping enrollment record {'enrollment_id': '91', 'student_id': '21', 'course_id': '15', 'enrollment_date': '2/3/2025', 'grade': 'C', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:06,217 | WARNING | Skipping enrollment record {'enrollment_id': '92', 'student_id': '25', 'course_id': '30', 'enrollment_date': '2/6/2025', 'grade': 'F', 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:06,591 | WARNING | Skipping enrollment record {'enrollment_id': '93', 'student_id': '13', 'course_id': '3', 'enrollment_date': '3/15/2025', 'grade': 'C', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:07,176 | WARNING | Skipping enrollment record {'enrollment_id': '94', 'student_id': '9', 'course_id': '11', 'enrollment_date': '8/4/2025', 'grade': 'C', 'status': 'Completed'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:07,512 | WARNING | Skipping enrollment record {'enrollment_id': '95', 'student_id': '39', 'course_id': '12', 'enrollment_date': '3/2/2025', 'grade': 'F', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:07,829 | WARNING | Skipping enrollment record {'enrollment_id': '96', 'student_id': '14', 'course_id': '30', 'enrollment_date': '5/13/2025', 'grade': 'B', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:08,135 | WARNING | Skipping enrollment record {'enrollment_id': '97', 'student_id': '11', 'course_id': '18', 'enrollment_date': '12/13/2025', 'grade': 'B', 'status': nan}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:08,536 | WARNING | Skipping enrollment record {'enrollment_id': '98', 'student_id': '27', 'course_id': '25', 'enrollment_date': '9/8/2025', 'grade': nan, 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:08,858 | WARNING | Skipping enrollment record {'enrollment_id': '99', 'student_id': '50', 'course_id': '23', 'enrollment_date': '11/11/2025', 'grade': 'F', 'status': 'Dropped'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:09,355 | WARNING | Skipping enrollment record {'enrollment_id': '100', 'student_id': '41', 'course_id': '14', 'enrollment_date': '7/28/2025', 'grade': nan, 'status': 'In Progress'}: current transaction is aborted, commands ignored until end of transaction block
+
+2025-12-16 15:42:09,737 | INFO | Database load completed
+2025-12-16 15:42:09,737 | INFO | ETL PIPELINE COMPLETED SUCCESSFULLY
